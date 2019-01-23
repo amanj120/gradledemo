@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1548275510504" analysisTimestamp="1548275510554" release="">
+  <Project projectName="">
+    <Jar>C:\Users\amanj\Documents\GitHub\gradledemo\gradledemo\build\classes\java\test</Jar>
+    <AuxClasspathEntry>C:\Users\amanj\Documents\GitHub\gradledemo\gradledemo\build\classes\java\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\3.6.7.Final\152a97fc12d8d288763e19ae5b672c0b4943ba26\hibernate-core-3.6.7.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\junit\junit\4.13-beta-1\1bc4a3b4a2d01a08c3a2cc8143666565b846ed17\junit-4.13-beta-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.6\cf4f67dae5df4f9932ae7810f4548ef3e14dd35e\antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\commons-collections\commons-collections\3.1\40fb048097caeacdb11dbb33b5755854d89efdeb\commons-collections-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\dom4j\dom4j\1.6.1\5d3ccc056b6f056dbf0dddfdf43894b9065a8f94\dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-commons-annotations\3.2.0.Final\ce990611448fc2865469e3b68d2fe76b050e3c4f\hibernate-commons-annotations-3.2.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\org.hibernate.javax.persistence\hibernate-jpa-2.0-api\1.0.1.Final\3306a165afa81938fc3d8a0948e891de9f6b192b\hibernate-jpa-2.0-api-1.0.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\javax.transaction\jta\1.1\2ca09f0b36ca7d71b762e14ea2ff09d5eac57558\jta-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.6.1\6f3b8a24bf970f17289b234284c94f43eb42f0e4\slf4j-api-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\amanj\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\amanj\Documents\GitHub\gradledemo\gradledemo\src\test\java\TestHelloWorld.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 23 Jan 2019 15:31:50 -0500" total_classes="1" referenced_classes="14" total_bugs="0" total_size="7" num_packages="1" java_version="1.8.0_171" vm_version="25.171-b11" cpu_seconds="11.25" clock_seconds="2.68" peak_mbytes="114.75" alloc_mbytes="455.50" gc_seconds="0.04">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="TestHelloWorld" sourceFile="TestHelloWorld.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="786" invocations="341" avgMicrosecondsPerInvocation="2305" maxMicrosecondsPerInvocation="9043" standardDeviationMircosecondsPerInvocation="1111"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="373" invocations="340" avgMicrosecondsPerInvocation="1098" maxMicrosecondsPerInvocation="36340" standardDeviationMircosecondsPerInvocation="2810"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="102" invocations="14" avgMicrosecondsPerInvocation="7321" maxMicrosecondsPerInvocation="31395" standardDeviationMircosecondsPerInvocation="8779"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="73" invocations="2" avgMicrosecondsPerInvocation="36706" maxMicrosecondsPerInvocation="71951" standardDeviationMircosecondsPerInvocation="35245"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="64" invocations="307" avgMicrosecondsPerInvocation="208" maxMicrosecondsPerInvocation="3910" standardDeviationMircosecondsPerInvocation="433"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="62" invocations="60" avgMicrosecondsPerInvocation="1047" maxMicrosecondsPerInvocation="6814" standardDeviationMircosecondsPerInvocation="1246"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="62" invocations="14" avgMicrosecondsPerInvocation="4433" maxMicrosecondsPerInvocation="15293" standardDeviationMircosecondsPerInvocation="5052"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="56" invocations="31" avgMicrosecondsPerInvocation="1811" maxMicrosecondsPerInvocation="34178" standardDeviationMircosecondsPerInvocation="6090"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
